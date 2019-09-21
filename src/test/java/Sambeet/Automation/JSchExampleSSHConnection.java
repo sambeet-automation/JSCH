@@ -17,7 +17,7 @@ public class JSchExampleSSHConnection {
 	    String host="192.168.43.168";
 	    String user="root";
 	    String password="admin";
-	    String command1="ls -ltr";
+	    String command1="ls";
 	    try{
 	    	
 	    	java.util.Properties config = new java.util.Properties(); 
@@ -58,4 +58,6 @@ public class JSchExampleSSHConnection {
 
 	}
 
+
+}
 }
